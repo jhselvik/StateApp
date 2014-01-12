@@ -22,6 +22,8 @@
 		8847D47218830C2C0081EAAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847D45118830C2C0081EAAC /* UIKit.framework */; };
 		8847D47A18830C2C0081EAAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8847D47818830C2C0081EAAC /* InfoPlist.strings */; };
 		8847D47C18830C2C0081EAAC /* StateAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8847D47B18830C2C0081EAAC /* StateAppTests.m */; };
+		8847D488188319CA0081EAAC /* XYZStateAppThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8847D486188319CA0081EAAC /* XYZStateAppThirdViewController.m */; };
+		8847D489188319CA0081EAAC /* XYZStateAppThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8847D487188319CA0081EAAC /* XYZStateAppThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		8847D47718830C2C0081EAAC /* StateAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateAppTests-Info.plist"; sourceTree = "<group>"; };
 		8847D47918830C2C0081EAAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8847D47B18830C2C0081EAAC /* StateAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateAppTests.m; sourceTree = "<group>"; };
+		8847D485188319CA0081EAAC /* XYZStateAppThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZStateAppThirdViewController.h; sourceTree = "<group>"; };
+		8847D486188319CA0081EAAC /* XYZStateAppThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZStateAppThirdViewController.m; sourceTree = "<group>"; };
+		8847D487188319CA0081EAAC /* XYZStateAppThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZStateAppThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				8847D45C18830C2C0081EAAC /* XYZAppDelegate.h */,
 				8847D45D18830C2C0081EAAC /* XYZAppDelegate.m */,
 				8847D45F18830C2C0081EAAC /* Main.storyboard */,
+				8847D485188319CA0081EAAC /* XYZStateAppThirdViewController.h */,
+				8847D486188319CA0081EAAC /* XYZStateAppThirdViewController.m */,
+				8847D487188319CA0081EAAC /* XYZStateAppThirdViewController.xib */,
 				8847D46218830C2C0081EAAC /* XYZFirstViewController.h */,
 				8847D46318830C2C0081EAAC /* XYZFirstViewController.m */,
 				8847D46518830C2C0081EAAC /* XYZSecondViewController.h */,
@@ -236,6 +244,7 @@
 			files = (
 				8847D46918830C2C0081EAAC /* Images.xcassets in Resources */,
 				8847D45818830C2C0081EAAC /* InfoPlist.strings in Resources */,
+				8847D489188319CA0081EAAC /* XYZStateAppThirdViewController.xib in Resources */,
 				8847D46118830C2C0081EAAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8847D46418830C2C0081EAAC /* XYZFirstViewController.m in Sources */,
+				8847D488188319CA0081EAAC /* XYZStateAppThirdViewController.m in Sources */,
 				8847D45E18830C2C0081EAAC /* XYZAppDelegate.m in Sources */,
 				8847D46718830C2C0081EAAC /* XYZSecondViewController.m in Sources */,
 				8847D45A18830C2C0081EAAC /* main.m in Sources */,

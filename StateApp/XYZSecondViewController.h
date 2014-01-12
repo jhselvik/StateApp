@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYZStateAppThirdViewController.h"
 
 @interface XYZSecondViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextView *myTextView;
+
+@property (strong, nonatomic) IBOutlet UITextView *myTextView;
+@property (strong, nonatomic) UIViewController *thirdViewController;
+
+- (IBAction)displayVC3:(id)sender;
 
 @end

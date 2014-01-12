@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _thirdViewController = [[XYZStateAppThirdViewController alloc]
+                            initWithNibName:@"XYZStateAppThirdViewController"
+                            bundle:nil];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +43,11 @@
     _myTextView.text = [coder decodeObjectForKey:@"UnsavedText"];
     [super decodeRestorableStateWithCoder:coder];
     
+}
+
+- (IBAction)displayVC3:(id)sender {
+    [self.navigationController
+     pushViewController:_thirdViewController animated:YES];
 }
 
 @end
