@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYZStateAppThirdViewController : UIViewController
+@interface XYZStateAppThirdViewController : UIViewController <UIViewControllerRestoration>
+
 
 @end
