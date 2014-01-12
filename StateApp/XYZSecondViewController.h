@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XYZSecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *myTextView;
 
 @end

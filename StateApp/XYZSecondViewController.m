@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - State Preservation Methods
+
+-(void)encodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    [coder encodeObject:_myTextView.text forKey:@"UnsavedText"];
+    [super encodeRestorableStateWithCoder:coder];
+}
+
+-(void)decodeRestorableStateWithCoder:(NSCoder *)coder
+{
+    _myTextView.text = [coder decodeObjectForKey:@"UnsavedText"];
+    [super decodeRestorableStateWithCoder:coder];
+    
+}
+
 @end
